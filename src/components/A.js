@@ -21,7 +21,7 @@ const A = (props) => {
 
             <ul>
             <li>Website: <a href={props.url}>{props.url}</a></li>
-            <li>Email: <a href={`mailto:${props.email}`}>{props.email}</a></li>
+            <li>Email: <a href={"mailto:" + props.email}>{props.email}</a></li>
             <li>Phone: <a href={`tel:${props.phone}`}>{props.phone}</a></li>
             </ul>
         </div>
